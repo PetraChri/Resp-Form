@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	height: auto;
+}
+form {
+	width: 90%;
+	margin: 0 auto;
+}
+label {
+	display: none;
+    font: 400 14px/1.5 'Average', Times, serif;
+}
+input {
+	display: inline-block;
+	padding: 0.5rem;
+	width: 100%;
+    font: 400 14px/1 'Average', Times, serif;
+}
+
+legend { font: 400 15px/1 'Courgette', Helvetica, sans-serif;
+    
+}
+
+
+@media screen and (min-width:600px) and (max-width:1024px){
+		
+		label { 
+			display:block;
+		}
+			
+		.box { 
+			float:left;
+			width:50%;
+		}
+			
+		input { float: left;
+			width:75%;
+		}	 
+	}
+		
+		
+							 
+
+	@media screen and (min-width:1024px){
+		
+		label { float: left;
+		display:inline;
+            padding-left: 30px;
+            padding-right: 0px;
+            font: 400 14px/1.5 'Average', Times, serif;
+			}
+			
+		div { float:left;
+		display:inline;
+		width:50%;
+		padding-bottom:15px;
+			}
+			
+		input {float: right;
+		display:inline;
+		width:75%;
+			}
+	}
+
+	
